@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Jamine-Midterm</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+  
+  h1{
+   background-color: rgb(115, 191, 82);
+  }
+  P{
+      background-color: rgb(192, 255, 214);
+    }
+  @media screen and (min-width: 600px){
+    h1{
+      background-color: rgb(153, 179, 153);
+    }
+  }
+  @media screen and (min-width: 900px){
+    h1{
+      background-color: rgb(111, 111, 173);
+      display: none;
+    }
+    @media screen and (min-width:600px){
+        img{
+            height:300px;
+            width:200px;
+        }
+    }
+        
+    }
+  </style>
+</head>
+<body>
+  <h1>Working on screen size with different devices</h1>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi modi architecto quia 
+    omnis debitis quasi provident officia, labore, enim quos, veniam aperiam dolorem natus ad!
+     Placeat expedita accusantium sed quibusdam!</p>
+     <img src="OIP (1).jpeg" alt="Article Image">
+</body>
+</html>
